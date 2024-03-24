@@ -1,0 +1,156 @@
+*{
+    color: white;
+    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+
+
+#top{
+    display: flex;
+    gap: 1%;
+    margin-bottom: 1%;
+}
+
+#top-logo h1{
+    color: rgb(124, 3, 3);
+}
+
+#top-nav{
+    background-color: rgb(124, 3, 3);
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#second{
+    display: flex;
+    gap: 1%;
+}
+
+#second h1{
+    background-color: rgb(124, 3, 3);
+
+}
+
+#second-main1 h1{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 12vw;
+    padding-bottom: 12vw;
+}
+
+#second-aside h1{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 12vw;
+    padding-bottom: 12vw;
+}
+
+#third{
+    display: flex;
+}
+
+#third h2{
+    background-color: rgb(124, 3, 3);
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+#third-1-first{
+    margin: 1%;
+}
+
+#third-1-second{
+    margin: 1%;
+}
+
+#third-1-third{
+    margin: 1%;
+}
+
+#forth{
+    display: flex;
+}
+
+#forth h2{
+    background-color: rgb(124, 3, 3);
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+#forth-2-first{
+    margin: 1%;
+}
+
+#forth-2-second{
+    margin: 1%;
+}
+
+#forth-2-third{
+    margin: 1%;
+}
+
+@media screen and (max-width:480px){
+    #top{
+        display: block;
+    }
+
+    #top-nav h1{
+        margin-left: 40%;
+    }
+
+    #second{
+        display: block;
+    }
+
+    #second-main1 h1{
+        padding-left: 40%;
+    }
+
+    #second-aside h1{
+        padding-left: 40%;
+    }
+
+    #third{
+        display: block;
+    }
+
+    #third h2{
+        padding-left: 40%;
+    }
+
+    #forth{
+        display: block;
+    }
+
+    #forth h2{
+        padding-left: 40%;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:481px){
+    #top-nav{
+        padding-left: 35%;
+        padding-right: 35%;
+    }
+
+    #second{
+        display: block;
+    }
+
+    #second h1{
+        padding-left: 45%;
+    }
+
+    #third{
+        display: block;
+    }
+
+    #forth{
+        display: block;
+    }
+
+}
